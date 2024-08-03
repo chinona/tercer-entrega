@@ -12,6 +12,9 @@ urlpatterns=[
 
 clase_21= [
     path('form-con-api/', views.form_con_api, name="FormConApi"),
+    path('form-est/', views.form_est, name="FormEst"),
+    path('form-prof/', views.form_prof, name="FormProf"),
+    path('buscar-form-con-api/', views.buscar_form_con_api, name="Buscar_Form_Con_Api"),
     ] 
 
 urlpatterns += clase_21
